@@ -1,0 +1,2197 @@
+{
+  "products": [
+    {
+      "name": "Laporan Kas Proyek Otomatis",
+      "slug": "buku-kas-proyek-otomatis",
+      "shortDescription": "Kelola arus kas keluar masuk proyek kontraktor dan konsultan secara real-time. Dilengkapi monitoring",
+      "description": "Kelola arus kas keluar masuk proyek kontraktor dan konsultan secara real-time. Dilengkapi monitoring budget per kategori, rekap mingguan dan bulanan, kapasitas 12.000 transaksi.",
+      "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "categoryId": "cat_architecture",
+      "categoryName": "Arsitektur & Konstruksi",
+      "regularPrice": 499000,
+      "discountPrice": 199000,
+      "hppPrice": 0,
+      "productType": "EXCEL",
+      "status": "ACTIVE",
+      "sku": "RP-PROD-806",
+      "deliveryMode": "LINK",
+      "productLinkUrl": "https://drive.google.com/drive/folders/project-vault-access",
+      "productTextContent": "Kode Lisensi & Instruksi Akses Master Proyek",
+      "enableAccessLimit": false,
+      "whatsappValidator": false,
+      "enableCaptcha": false,
+      "features": [
+        "Fitur Pertama",
+        "Fitur Kedua",
+        "Fitur Ketiga"
+      ],
+      "files": [
+        {
+          "id": "file_1",
+          "productId": "preview_prod",
+          "fileName": "Template_Laporan_Kas_Proyek.xlsx",
+          "fileSizeBytes": 24500000,
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storagePath": "vault/files/Template_Laporan_Kas_Proyek.xlsx",
+          "fileType": "EXCEL",
+          "version": "1.0"
+        }
+      ],
+      "accessDurationDays": 0,
+      "downloadLimit": 10,
+      "orderBump": {
+        "id": "bump_1",
+        "productId": "preview_prod",
+        "bumpName": "Tambahkan Bonus Eksklusif",
+        "bumpTagline": "Tambahan library premium berharga diskon.",
+        "bumpPrice": 47000,
+        "bumpThumbnail": "/src/assets/images/ahsp_bump_thumb_1790626215648.jpg",
+        "isActive": true
+      },
+      "checkoutConfig": {
+        "bannerImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+        "trustBadge1": "Garansi Uang Kembali",
+        "trustBadge2": "Jaminan Kepuasan",
+        "recipientTitle": "Data Penerima:",
+        "noticeText": "*Pastikan Email dengan benar. Produk Akan terkirim secara otomatis melalui Email setelah pembayaran.",
+        "ctaText": "Beli Sekarang",
+        "paymentMethods": [
+          {
+            "id": "pm_bri_va",
+            "name": "BRI Virtual Account",
+            "code": "VA_BRI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BRI",
+            "isActive": true
+          },
+          {
+            "id": "pm_bca_va",
+            "name": "BCA Virtual Account",
+            "code": "VA_BCA",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BCA",
+            "isActive": true
+          },
+          {
+            "id": "pm_qris",
+            "name": "QRIS",
+            "code": "QRIS",
+            "adminFeeText": "Admin fee 0.7%",
+            "adminFeeAmount": 700,
+            "adminFeeType": "PERCENT",
+            "gatewayTag": "Midtrans",
+            "logoType": "QRIS",
+            "isActive": true
+          },
+          {
+            "id": "pm_mandiri_bill",
+            "name": "Mandiri Bill",
+            "code": "VA_MANDIRI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "MANDIRI",
+            "isActive": true
+          },
+          {
+            "id": "pm_bni_va",
+            "name": "BNI Virtual Account",
+            "code": "VA_BNI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BNI",
+            "isActive": true
+          }
+        ],
+        "tracking": {
+          "conversionRule": "EVERY",
+          "facebookPixels": [
+            {
+              "id": "1486222885740379",
+              "name": "PIXEL WL",
+              "events": [
+                "Purchase"
+              ],
+              "serverSide": true,
+              "accessToken": "",
+              "triggerCondition": "When order status is Processing",
+              "eventValue": "Total Price",
+              "testEventCode": "",
+              "allProducts": true
+            }
+          ],
+          "tiktokPixels": [],
+          "googleAds": [],
+          "googleTagManager": [],
+          "snackVideo": []
+        },
+        "successPage": {
+          "headline": "Pembayaran Anda Berhasil!",
+          "message": "Terima kasih telah mempercayai Ruang Proyek. File Buku Kas Proyek dan lisensi telah dikirim ke WhatsApp dan Email Anda.",
+          "whatsappSupport": "6281234567890"
+        }
+      },
+      "createdAt": "2026-09-29T06:56:46.161Z",
+      "updatedAt": "2026-09-29T06:56:46.161Z",
+      "id": "prod_eddbe73d753c"
+    },
+    {
+      "id": "prod_buku_kas",
+      "name": "Laporan Kas Proyek Otomatis",
+      "slug": "buku-kas-proyek-otomatis",
+      "shortDescription": "Template Excel siap pakai untuk kelola keuangan proyek lebih mudah, cepat, dan akurat. Dilengkapi dashboard visual otomatis & formula SNI.",
+      "description": "Kelola arus kas keluar masuk proyek kontraktor dan konsultan secara real-time. Dilengkapi monitoring budget per kategori, rekap mingguan dan bulanan, kapasitas 12.000 transaksi tanpa macro (aman digunakan), serta kompatibel dengan Excel 2019 ke atas dan Microsoft 365.",
+      "thumbnail": "/src/assets/images/buku_kas_banner_1790626196511.jpg",
+      "gallery": [
+        "/src/assets/images/buku_kas_banner_1790626196511.jpg"
+      ],
+      "categoryId": "cat_finance",
+      "categoryName": "Bisnis & Finansial",
+      "regularPrice": 249000,
+      "discountPrice": 99000,
+      "productType": "EXCEL",
+      "status": "ACTIVE",
+      "sku": "RP-KAS-2026",
+      "accessDurationDays": 0,
+      "downloadLimit": 10,
+      "thankYouMessage": "Selamat! Template Excel Buku Kas Proyek Otomatis Anda telah siap diunduh dan digunakan.",
+      "orderBump": {
+        "id": "bump_ahsp_2026",
+        "productId": "prod_buku_kas",
+        "bumpName": "AHSP 2026 LENGKAP: BINA MARGA, CIPTA KARYA & SDA",
+        "bumpTagline": "Lengkapi referensi perhitungan konstruksi dalam 1 paket. Cocok untuk kebutuhan RAB, analisa harga satuan, dan pekerjaan konstruksi. Cocok untuk Kontraktor, Konsultan, Engineer, QS, Pelaksana, dan praktisi konstruksi yang membutuhkan referensi AHSP dalam pekerjaan sehari-hari.",
+        "bumpPrice": 49000,
+        "bumpThumbnail": "/src/assets/images/ahsp_bump_thumb_1790626215648.jpg",
+        "isActive": true
+      },
+      "checkoutConfig": {
+        "bannerImage": "/src/assets/images/buku_kas_banner_1790626196511.jpg",
+        "trustBadge1": "Garansi Uang Kembali",
+        "trustBadge2": "Jaminan Kepuasan",
+        "recipientTitle": "Data Penerima:",
+        "noticeText": "*Pastikan Email dengan benar. Produk Akan terkirim secara otomatis melalui Email setelah pembayaran.",
+        "ctaText": "Beli Sekarang",
+        "paymentMethods": [
+          {
+            "id": "pm_bri_va",
+            "name": "BRI Virtual Account",
+            "code": "VA_BRI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BRI",
+            "isActive": true
+          },
+          {
+            "id": "pm_bca_va",
+            "name": "BCA Virtual Account",
+            "code": "VA_BCA",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BCA",
+            "isActive": true
+          },
+          {
+            "id": "pm_qris",
+            "name": "QRIS",
+            "code": "QRIS",
+            "adminFeeText": "Admin fee 0.7%",
+            "adminFeeAmount": 700,
+            "adminFeeType": "PERCENT",
+            "gatewayTag": "Midtrans",
+            "logoType": "QRIS",
+            "isActive": true
+          },
+          {
+            "id": "pm_mandiri_bill",
+            "name": "Mandiri Bill",
+            "code": "VA_MANDIRI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "MANDIRI",
+            "isActive": true
+          },
+          {
+            "id": "pm_bni_va",
+            "name": "BNI Virtual Account",
+            "code": "VA_BNI",
+            "adminFeeText": "Admin fee Rp4.440",
+            "adminFeeAmount": 4440,
+            "adminFeeType": "FIXED",
+            "gatewayTag": "Midtrans",
+            "logoType": "BNI",
+            "isActive": true
+          }
+        ],
+        "tracking": {
+          "conversionRule": "EVERY",
+          "facebookPixels": [
+            {
+              "id": "1486222885740379",
+              "name": "PIXEL WL",
+              "events": [
+                "AddToCart",
+                "InitiateCheckout"
+              ]
+            }
+          ],
+          "tiktokPixels": [],
+          "googleAds": [],
+          "googleTagManager": [],
+          "snackVideo": []
+        },
+        "successPage": {
+          "headline": "Pembayaran Anda Berhasil!",
+          "message": "Terima kasih telah mempercayai Ruang Proyek. File Buku Kas Proyek dan lisensi telah dikirim ke WhatsApp dan Email Anda.",
+          "whatsappSupport": "6281234567890"
+        }
+      },
+      "files": [
+        {
+          "id": "file_kas_proyek_master",
+          "productId": "prod_buku_kas",
+          "fileName": "Template_Buku_Kas_Proyek_Otomatis_v2026.xlsx",
+          "fileSizeBytes": 24500000,
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storagePath": "vault/finance/Template_Buku_Kas_Proyek_Otomatis_v2026.xlsx",
+          "fileType": "EXCEL",
+          "version": "2026.1",
+          "accessInstructions": "Buka langsung menggunakan Microsoft Excel atau Google Sheets. Aktifkan editing mode."
+        }
+      ],
+      "createdAt": "2026-09-28T09:00:00.000Z",
+      "updatedAt": "2026-09-28T09:00:00.000Z"
+    },
+    {
+      "id": "prod_arsitektur_pack",
+      "name": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "slug": "10000-template-arsitektur-pro",
+      "shortDescription": "Mega bundle terlengkap file AutoCAD, SketchUp, 3ds Max, DWG detail pondasi, RAB Excel formula otomatis & 50+ plugins.",
+      "description": "Paket terlengkap untuk arsitek, drafter, kontraktor, dan mahasiswa teknik sipil. Berisi ribuan template kerja siap pakai, library 2D/3D blocks terlengkap, RAB formula SNI terbaru, dan lisensi komersial seumur hidup.",
+      "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=800&auto=format&fit=crop&q=80"
+      ],
+      "categoryId": "cat_architecture",
+      "categoryName": "Arsitektur & Konstruksi",
+      "regularPrice": 799000,
+      "discountPrice": 219000,
+      "productType": "BUNDLE",
+      "status": "ACTIVE",
+      "sku": "RP-ARCH-10K",
+      "accessDurationDays": 0,
+      "downloadLimit": 10,
+      "thankYouMessage": "Terima kasih atas pembelian Anda! Seluruh paket file DWG, SketchUp, dan RAB Excel telah siap diunduh.",
+      "files": [
+        {
+          "id": "file_dwg_templates",
+          "productId": "prod_arsitektur_pack",
+          "fileName": "AutoCAD_Library_DWG_Full_Pack_v4.2.zip",
+          "fileSizeBytes": 2450000000,
+          "mimeType": "application/zip",
+          "storagePath": "vault/architecture/AutoCAD_Library_DWG_Full_Pack_v4.2.zip",
+          "fileType": "ZIP",
+          "version": "2026.4",
+          "accessInstructions": "Ekstrak menggunakan WinRAR / 7-Zip versi terbaru. Kompatibel dengan AutoCAD 2018 ke atas."
+        },
+        {
+          "id": "file_sketchup_models",
+          "productId": "prod_arsitektur_pack",
+          "fileName": "SketchUp_Vray_3D_Models_Interior_Exterior.zip",
+          "fileSizeBytes": 4100000000,
+          "mimeType": "application/zip",
+          "storagePath": "vault/architecture/SketchUp_Vray_3D_Models.zip",
+          "fileType": "ZIP",
+          "version": "2026.1",
+          "accessInstructions": "Buka langsung pada SketchUp 2020 ke atas. Dilengkapi material V-Ray 5/6."
+        },
+        {
+          "id": "file_rab_excel",
+          "productId": "prod_arsitektur_pack",
+          "fileName": "RAB_Otomatis_Formula_SNI_2026_AHSP.xlsx",
+          "fileSizeBytes": 35000000,
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storagePath": "vault/architecture/RAB_Otomatis_Formula_SNI_2026_AHSP.xlsx",
+          "fileType": "EXCEL",
+          "version": "5.0",
+          "accessInstructions": "Aktifkan macro pada Microsoft Excel. Terdapat tutorial video di sheet panduan."
+        },
+        {
+          "id": "file_plugins",
+          "productId": "prod_arsitektur_pack",
+          "fileName": "Curic_1001bit_Architecture_Plugins.zip",
+          "fileSizeBytes": 120000000,
+          "mimeType": "application/zip",
+          "storagePath": "vault/architecture/Curic_Plugins.zip",
+          "fileType": "SOFTWARE",
+          "version": "3.1"
+        }
+      ],
+      "orderBump": {
+        "id": "bump_dwg_blocks",
+        "productId": "prod_arsitektur_pack",
+        "bumpName": "Tambahkan 5.000+ Dynamic AutoCAD Blocks",
+        "bumpTagline": "Hemat 85%! Library pintu, jendela, furnitur dinamis yang dapat di-resize dalam 1 klik.",
+        "bumpPrice": 47000,
+        "bumpThumbnail": "https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?w=200&auto=format&fit=crop&q=80",
+        "isActive": true
+      },
+      "upsell": {
+        "id": "upsell_rab_mastery",
+        "triggerProductId": "prod_arsitektur_pack",
+        "offerProductId": "prod_rab_mastery",
+        "title": "SPESIAL UNTUK ANDA HARI INI",
+        "subtitle": "Upgrade ke Video Course: Manajemen Proyek & Estimasi Biaya RAB Konstruksi Real",
+        "specialPrice": 97000,
+        "regularPrice": 450000,
+        "headline": "Kuasai Pembuatan RAB Proyek Nyata Bernilai Milyaran dalam 7 Hari",
+        "benefits": [
+          "25 Video Tutorial HD Studi Kasus Rumah 2 Lantai & Ruko",
+          "Template Kontrak Kerja & Surat Perjanjian Pemborong Legal",
+          "Grup Diskusi Arsitek & Kontraktor Se-Indonesia",
+          "Sertifikat Kelulusan Resmi Digital"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=80",
+        "isActive": true
+      },
+      "landingConfig": {
+        "hero": {
+          "badge": "⚡ MEGA BUNDLE ARSITEK 2026",
+          "headline": "Selesaikan Desain Gambar Kerja & RAB 5x Lebih Cepat Tanpa Gambar Dari Nol",
+          "subheadline": "Koleksi 10.000+ file DWG, 3D SketchUp V-Ray render, RAB formula otomatis SNI 2026, dan kumpulan detail pondasi siap pakai untuk proyek impian Anda.",
+          "ctaText": "Dapatkan Akses Instan Sekarang",
+          "rating": 4.9,
+          "ratingCount": 3840
+        },
+        "problem": {
+          "title": "Apakah Masalah Ini Sering Menghambat Proyek Anda?",
+          "description": "Banyak arsitek, drafter, dan kontraktor kehilangan jam tidur berharga hanya untuk hal berulang.",
+          "points": [
+            "Membuang waktu 2-3 hari hanya untuk menggambar detail pondasi & kusen dari nol.",
+            "Klien minta revisi mendadak dan perhitungan RAB berantakan karena salah rumus manual.",
+            "Hasil render 3D SketchUp terlihat kaku karena kekurangan library material & pohon photorealistic.",
+            "Pusing menyusun dokumen tender proyek karena format RAB tidak sesuai standar SNI terbaru."
+          ]
+        },
+        "solution": {
+          "title": "Solusi All-in-One Ruang Proyek: Langsung Pakai & Bebas Edit!",
+          "description": "Kami telah merapikan ribuan aset digital terstruktur rapi per folder kategori sehingga Anda bisa drag-and-drop langsung ke software desain favorit Anda.",
+          "points": [
+            "Folder rapi dan terorganisir: Denah, Tampak, Potongan, ME & Elektrikal, Struktur Baja & Beton.",
+            "RAB Excel terhubung otomatis: Ganti harga satuan semen & pasir, total biaya langsung terupdate.",
+            "Lisensi komersial seumur hidup bebas royalti untuk proyek komersial maupun pribadi.",
+            "Update file berkala tanpa biaya langganan bulanan selamanya."
+          ]
+        },
+        "benefits": {
+          "title": "Keuntungan Utama yang Akan Anda Rasakan",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "Hemat Waktu Hingga 80%",
+              "desc": "Tidak perlu lagi mendesain blok toilet, pintu, dan tangga dari awal. Tinggal copy-paste."
+            },
+            {
+              "icon": "ShieldCheck",
+              "title": "Standar SNI & Dinas PU",
+              "desc": "Seluruh formula AHSP dan gambar detail mengacu pada standar resmi konstruksi Indonesia."
+            },
+            {
+              "icon": "FolderSync",
+              "title": "Akses Selamanya & Download Cepat",
+              "desc": "Server cloud berkecepatan tinggi dengan sistem resume download tanpa takut putus di tengah jalan."
+            },
+            {
+              "icon": "CheckCircle2",
+              "title": "Bebas Dipakai Proyek Klien",
+              "desc": "Gunakan seluruh aset untuk tender, presentasi owner, dan dokumen kontraktor tanpa batasan."
+            }
+          ]
+        },
+        "whatsIncluded": {
+          "title": "Apa Saja yang Anda Dapatkan di Paket Ini?",
+          "items": [
+            {
+              "name": "AutoCAD Architectural Library (DWG)",
+              "size": "2.45 GB",
+              "type": "DWG / CAD",
+              "desc": "Ribuan denah rumah tipe 36/45/60/120, detail tangga putar, struktur baja WF, plumbing & septic tank."
+            },
+            {
+              "name": "SketchUp Photorealistic 3D Warehouse",
+              "size": "4.1 GB",
+              "type": "SKP / 3DS",
+              "desc": "Model 3D interior modern Japandi, fasad minimalis kontemporer, lengkap dengan settingan lighting V-Ray."
+            },
+            {
+              "name": "Master RAB Excel SNI & AHSP 2026",
+              "size": "35 MB",
+              "type": "XLSX (Macro)",
+              "desc": "Formula otomatis kalkulasi volume cor beton, pembesian tulangan, biaya upah tukang, dan kurva S."
+            },
+            {
+              "name": "Engineering & Architecture Plugins Pack",
+              "size": "120 MB",
+              "type": "RBZ / EXE",
+              "desc": "Plugin otomatis buat atap limas 1 klik, perpanjang garis cepat, dan kalkulator luas bangunan instan."
+            }
+          ]
+        },
+        "faqs": [
+          {
+            "question": "Bagaimana cara mengakses file setelah pembayaran?",
+            "answer": "Sistem Ruang Proyek memproses secara otomatis 100%. Begitu pembayaran berhasil (via QRIS, Virtual Account, dsb), halaman langsung memberikan tautan unduhan aman, dan kami juga mengirimkan salinannya ke Email & WhatsApp Anda."
+          },
+          {
+            "question": "Apakah file bisa dibuka di AutoCAD atau SketchUp versi lama?",
+            "answer": "Ya, seluruh file DWG disimpan dalam format DWG 2013/2018 sehingga dapat dibuka di AutoCAD versi manapun. File SketchUp kompatibel untuk SketchUp 2019 ke atas."
+          },
+          {
+            "question": "Apakah ada biaya langganan bulanan?",
+            "answer": "Tidak ada. Pembelian ini adalah sekali bayar (one-time payment) untuk akses seumur hidup tanpa tagihan tersembunyi."
+          },
+          {
+            "question": "Bagaimana jika link download saya hilang atau kuota habis?",
+            "answer": "Anda dapat menghubungi layanan bantuan kami via WhatsApp atau meminta pengiriman ulang link download melalui dashboard pembeli kapan saja."
+          }
+        ],
+        "testimonials": [
+          {
+            "name": "Ar. Dimas Prasetyo, IAI",
+            "role": "Principal Architect di Studio Karya Bangun",
+            "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+            "rating": 5,
+            "content": "Paket template DWG & SketchUp dari Ruang Proyek sangat menyelamatkan deadline studio kami. Detail sambungan baja dan RAB Excel-nya luar biasa presisi."
+          },
+          {
+            "name": "Ir. Hendra Gunawan",
+            "role": "Kontraktor Perumahan Jawa Barat",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+            "rating": 5,
+            "content": "RAB otomatisnya benar-benar langsung update saat harga material berubah. Order bump dynamic block-nya juga sangat berguna."
+          },
+          {
+            "name": "Sarah Amanda, S.T.",
+            "role": "Freelance 3D Visualizer",
+            "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+            "rating": 5,
+            "content": "Proses checkout via QRIS-nya instan banget, 3 detik langsung diarahkan ke download link dan file langsung terkirim ke WhatsApp!"
+          }
+        ]
+      },
+      "createdAt": "2026-08-29T14:53:33.454Z",
+      "updatedAt": "2026-09-28T14:53:33.454Z"
+    },
+    {
+      "id": "prod_finance_excel",
+      "name": "Ultimate Financial Model & Business Dashboard Excel 2026",
+      "slug": "financial-model-dashboard-excel",
+      "shortDescription": "Template Excel & Google Sheets untuk proyeksi cash flow, valuasi startup, laporan laba rugi otomatis, dan KPI monitoring.",
+      "description": "Dashboard finansial tingkat eksekutif. Dirancang oleh konsultan keuangan profesional untuk memantau performa bisnis, analisa break-even point, dan laporan investor siap cetak.",
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "categoryId": "cat_finance",
+      "categoryName": "Bisnis & Finansial",
+      "regularPrice": 499000,
+      "discountPrice": 179000,
+      "productType": "EXCEL",
+      "status": "ACTIVE",
+      "sku": "RP-FIN-EXCEL",
+      "accessDurationDays": 0,
+      "downloadLimit": 5,
+      "files": [
+        {
+          "id": "file_fin_master",
+          "productId": "prod_finance_excel",
+          "fileName": "RuangProyek_Financial_Model_Pro_v3.xlsx",
+          "fileSizeBytes": 18000000,
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storagePath": "vault/finance/RuangProyek_Financial_Model_Pro_v3.xlsx",
+          "fileType": "EXCEL",
+          "version": "3.0"
+        }
+      ],
+      "orderBump": {
+        "id": "bump_pitch_deck",
+        "productId": "prod_finance_excel",
+        "bumpName": "Tambahkan 50+ Slide Pitch Deck Investor (PPTX)",
+        "bumpTagline": "Format slide presentasi kelas Silicon Valley yang disukai investor.",
+        "bumpPrice": 39000,
+        "isActive": true
+      },
+      "createdAt": "2026-09-08T14:53:33.454Z",
+      "updatedAt": "2026-09-28T14:53:33.454Z"
+    },
+    {
+      "id": "prod_saas_figma",
+      "name": "Nexus UI Kit - Modern SaaS Dashboard Design System (Figma)",
+      "slug": "nexus-ui-kit-saas-figma",
+      "shortDescription": "1.200+ komponen UI, 120 screen halaman SaaS, dark & light mode, auto-layout 5.0, dan token desain siap coding.",
+      "description": "Design system terlengkap untuk desainer produk dan developer frontend. Hemat ratusan jam pembuatan dashboard CRM, analytics, billing, dan user settings.",
+      "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80"
+      ],
+      "categoryId": "cat_design",
+      "categoryName": "Design & UI/UX",
+      "regularPrice": 650000,
+      "discountPrice": 249000,
+      "productType": "LINK",
+      "status": "ACTIVE",
+      "sku": "RP-FIGMA-NEXUS",
+      "accessDurationDays": 0,
+      "downloadLimit": 0,
+      "files": [
+        {
+          "id": "file_figma_access",
+          "productId": "prod_saas_figma",
+          "fileName": "Figma_Access_Community_File_Token.pdf",
+          "fileSizeBytes": 4200000,
+          "mimeType": "application/pdf",
+          "storagePath": "vault/design/Nexus_Figma_Access.pdf",
+          "fileType": "PDF",
+          "version": "2.5",
+          "externalLink": "https://figma.com/@ruangproyek/nexus-ui-system",
+          "accessInstructions": "Buka tautan Figma di dalam dokumen PDF dan klik Duplicate to Your Drafts."
+        }
+      ],
+      "createdAt": "2026-09-13T14:53:33.454Z",
+      "updatedAt": "2026-09-28T14:53:33.454Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_dad01657540308c3",
+      "orderNumber": "ORD-20260928-932709",
+      "customerId": "cust_113f690f273b",
+      "customerName": "Rian Pratama",
+      "customerEmail": "rian.pratama@gmail.com",
+      "customerPhone": "081234567890",
+      "items": [
+        {
+          "id": "item_2b9c7fbe1e7b",
+          "orderId": "ord_dad01657540308c3",
+          "productId": "prod_buku_kas",
+          "productName": "Laporan Kas Proyek Otomatis",
+          "productThumbnail": "/src/assets/images/buku_kas_banner_1790626196511.jpg",
+          "price": 99000,
+          "itemType": "MAIN"
+        },
+        {
+          "id": "item_bump_8bde9d4541ad",
+          "orderId": "ord_dad01657540308c3",
+          "productId": "bump_ahsp_2026",
+          "productName": "AHSP 2026 LENGKAP: BINA MARGA, CIPTA KARYA & SDA",
+          "price": 49000,
+          "itemType": "BUMP"
+        }
+      ],
+      "subtotalAmount": 148000,
+      "discountAmount": 0,
+      "totalAmount": 148000,
+      "paymentMethod": "VA_BRI",
+      "paymentStatus": "PAID",
+      "deliveryStatus": "DELIVERED",
+      "orderBumpAdded": true,
+      "upsellAdded": false,
+      "timeline": [
+        {
+          "id": "tl_ebd12474bc0d",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Checkout Dimulai",
+          "description": "Customer memulai transaksi checkout produk Laporan Kas Proyek Otomatis.",
+          "timestamp": "2026-09-28T20:17:02.319Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_d60a3cad7fe4",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Instruksi Pembayaran Diterbitkan (VA_BRI)",
+          "description": "Rincian pembayaran senilai Rp 148.000 dibuat. Menunggu pelunasan.",
+          "timestamp": "2026-09-28T20:17:02.325Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_a9c9c5bb7b71",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Pembayaran Lunas (Webhook Diverifikasi)",
+          "description": "Webhook terverifikasi dari gateway Midtrans. Transaction ID: TRX-1790626626095. Signature valid: YA.",
+          "timestamp": "2026-09-28T20:17:06.096Z",
+          "actor": "PAYMENT_GATEWAY",
+          "metadata": {
+            "amount": 0,
+            "provider": "Midtrans"
+          }
+        },
+        {
+          "id": "tl_a8df05e1933f",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Akses Produk Digital Digenerate",
+          "description": "Secure link token berhasil dibuat. Kuota unduhan: 10x. Kadaluarsa: 28/9/2027.",
+          "timestamp": "2026-09-28T20:17:06.102Z",
+          "actor": "SYSTEM",
+          "metadata": {
+            "secureToken": "sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3"
+          }
+        },
+        {
+          "id": "tl_da837791e20a",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke rian.pratama@gmail.com. Subjek: \"Pesanan Anda Berhasil — Laporan Kas Proyek Otomatis\"",
+          "timestamp": "2026-09-28T20:17:06.104Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_892fd5c619f9",
+          "orderId": "ord_dad01657540308c3",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 081234567890.",
+          "timestamp": "2026-09-28T20:17:06.106Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_b047c270d578",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Notifikasi Admin Telegram Terkirim",
+          "description": "Notifikasi instan order baru berhasil dikirim ke Telegram Bot admin.",
+          "timestamp": "2026-09-28T20:17:06.107Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_3260ab15af8b",
+          "orderId": "ord_dad01657540308c3",
+          "title": "Follow Up WhatsApp Terkirim",
+          "description": "Pesan otomatis/manual terkirim ke 081234567890: \"Konfirmasi & Akses Produk Lunas #ORD-20260928-932709\"",
+          "timestamp": "2026-09-29T07:25:12.037Z",
+          "actor": "SYSTEM"
+        }
+      ],
+      "createdAt": "2026-09-28T20:17:02.319Z",
+      "updatedAt": "2026-09-28T20:17:06.096Z",
+      "transactionId": "TRX-1790626626095",
+      "paidAt": "2026-09-28T20:17:06.096Z",
+      "downloadToken": "sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3"
+    },
+    {
+      "id": "ord_ba6c9170889f7897",
+      "orderNumber": "ORD-20260928-184979",
+      "customerId": "cust_aan_pangestu",
+      "customerName": "Aan pangestu",
+      "customerEmail": "aanpangestu09@gmail.com",
+      "customerPhone": "086123713475",
+      "items": [
+        {
+          "id": "item_b324fd5c6041",
+          "orderId": "ord_ba6c9170889f7897",
+          "productId": "prod_arsitektur_pack",
+          "productName": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+          "productThumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+          "price": 219000,
+          "itemType": "MAIN"
+        },
+        {
+          "id": "item_bump_d8ad24d30155",
+          "orderId": "ord_ba6c9170889f7897",
+          "productId": "bump_dwg_blocks",
+          "productName": "Tambahkan 5.000+ Dynamic AutoCAD Blocks",
+          "price": 47000,
+          "itemType": "BUMP"
+        },
+        {
+          "id": "item_up_ed0345650445",
+          "orderId": "ord_ba6c9170889f7897",
+          "productId": "upsell_bonus",
+          "productName": "Upgrade ke Video Course: Manajemen Proyek & Estimasi Biaya RAB Konstruksi Real",
+          "price": 97000,
+          "itemType": "UPSELL"
+        }
+      ],
+      "subtotalAmount": 363000,
+      "discountAmount": 0,
+      "totalAmount": 363000,
+      "paymentMethod": "QRIS",
+      "paymentStatus": "PAID",
+      "deliveryStatus": "DELIVERED",
+      "orderBumpAdded": true,
+      "upsellAdded": true,
+      "utmSource": "direct",
+      "utmMedium": "web",
+      "timeline": [
+        {
+          "id": "tl_8b89d21c40d8",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Checkout Dimulai",
+          "description": "Customer memulai transaksi checkout produk 10.000+ Template Arsitektur & Engineering Pack Pro 2026.",
+          "timestamp": "2026-09-28T20:10:14.560Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_d665cd76b7df",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Instruksi Pembayaran Diterbitkan (QRIS)",
+          "description": "Rincian pembayaran senilai Rp 266.000 dibuat. Menunggu pelunasan.",
+          "timestamp": "2026-09-28T20:10:14.566Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_4e4b57c7aaff",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Pembayaran Lunas (Webhook Diverifikasi)",
+          "description": "Webhook terverifikasi dari gateway CENTRAL_GATEWAY. Transaction ID: TRX-1790626220346. Signature valid: YA.",
+          "timestamp": "2026-09-28T20:10:20.671Z",
+          "actor": "PAYMENT_GATEWAY",
+          "metadata": {
+            "amount": 266000,
+            "provider": "CENTRAL_GATEWAY"
+          }
+        },
+        {
+          "id": "tl_5fed767c5a3c",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Akses Produk Digital Digenerate",
+          "description": "Secure link token berhasil dibuat. Kuota unduhan: 10x. Kadaluarsa: 28/9/2027.",
+          "timestamp": "2026-09-28T20:10:20.676Z",
+          "actor": "SYSTEM",
+          "metadata": {
+            "secureToken": "sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630",
+            "licenseKey": "RP-46A9-1AA7-39F1-3D72"
+          }
+        },
+        {
+          "id": "tl_da004d6b8006",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke aanpangestu09@gmail.com. Subjek: \"Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026\"",
+          "timestamp": "2026-09-28T20:10:20.677Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_1c9ecdf899aa",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 086123713475.",
+          "timestamp": "2026-09-28T20:10:20.677Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_7c30dcb35856",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Notifikasi Admin Telegram Terkirim",
+          "description": "Notifikasi instan order baru berhasil dikirim ke Telegram Bot admin.",
+          "timestamp": "2026-09-28T20:10:20.678Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_26237ec334b3",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Upsell Ditambahkan",
+          "description": "Customer menerima penawaran 1-click upsell: Upgrade ke Video Course: Manajemen Proyek & Estimasi Biaya RAB Konstruksi Real (+Rp 97.000).",
+          "timestamp": "2026-09-28T20:10:30.988Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_19e4b3f1fffb",
+          "orderId": "ord_ba6c9170889f7897",
+          "title": "Follow Up WhatsApp Terkirim",
+          "description": "Pesan otomatis/manual terkirim ke 086123713475: \"Konfirmasi & Akses Produk Lunas #ORD-20260928-184979\"",
+          "timestamp": "2026-09-29T07:25:12.038Z",
+          "actor": "SYSTEM"
+        }
+      ],
+      "createdAt": "2026-09-28T20:10:14.560Z",
+      "updatedAt": "2026-09-28T20:10:20.671Z",
+      "transactionId": "TRX-1790626220346",
+      "paidAt": "2026-09-28T20:10:20.671Z",
+      "downloadToken": "sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630",
+      "licenseKey": "RP-46A9-1AA7-39F1-3D72"
+    },
+    {
+      "id": "ord_31a8aade822cb3d4",
+      "orderNumber": "ORD-20260928-385438",
+      "customerId": "cust_06862fe524f7",
+      "customerName": "Testing User",
+      "customerEmail": "test@ruangproyek.com",
+      "customerPhone": "081298765432",
+      "items": [
+        {
+          "id": "item_be07d5523670",
+          "orderId": "ord_31a8aade822cb3d4",
+          "productId": "prod_arsitektur_pack",
+          "productName": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+          "productThumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+          "price": 219000,
+          "itemType": "MAIN"
+        },
+        {
+          "id": "item_bump_e09a1b993043",
+          "orderId": "ord_31a8aade822cb3d4",
+          "productId": "bump_dwg_blocks",
+          "productName": "Tambahkan 5.000+ Dynamic AutoCAD Blocks",
+          "price": 47000,
+          "itemType": "BUMP"
+        }
+      ],
+      "subtotalAmount": 266000,
+      "discountAmount": 0,
+      "totalAmount": 266000,
+      "paymentMethod": "QRIS",
+      "paymentStatus": "PAID",
+      "deliveryStatus": "DELIVERED",
+      "orderBumpAdded": true,
+      "upsellAdded": false,
+      "timeline": [
+        {
+          "id": "tl_368f131c9cfd",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Checkout Dimulai",
+          "description": "Customer memulai transaksi checkout produk 10.000+ Template Arsitektur & Engineering Pack Pro 2026.",
+          "timestamp": "2026-09-28T14:53:43.307Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_0ace08f1a50c",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Instruksi Pembayaran Diterbitkan (QRIS)",
+          "description": "Rincian pembayaran senilai Rp 266.000 dibuat. Menunggu pelunasan.",
+          "timestamp": "2026-09-28T14:53:43.315Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_2086ccc8669a",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Pembayaran Lunas (Webhook Diverifikasi)",
+          "description": "Webhook terverifikasi dari gateway SANDBOX. Transaction ID: TRX-TEST-001.",
+          "timestamp": "2026-09-28T14:53:52.840Z",
+          "actor": "PAYMENT_GATEWAY",
+          "metadata": {
+            "amount": 266000
+          }
+        },
+        {
+          "id": "tl_591b0aeef9fb",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Akses Produk Digital Digenerate",
+          "description": "Secure link token berhasil dibuat. Kuota unduhan: 10x. Kadaluarsa: 28/9/2027.",
+          "timestamp": "2026-09-28T14:53:52.842Z",
+          "actor": "SYSTEM",
+          "metadata": {
+            "secureToken": "sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014",
+            "licenseKey": "RP-BE83-1490-9444-03D0"
+          }
+        },
+        {
+          "id": "tl_6c30672d6262",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke test@ruangproyek.com. Subjek: \"Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026\"",
+          "timestamp": "2026-09-28T14:53:52.843Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_e2c6bb772a7d",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 081298765432.",
+          "timestamp": "2026-09-28T14:53:52.843Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_c1970a8074be",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Notifikasi Admin Telegram Terkirim",
+          "description": "Notifikasi instan order baru berhasil dikirim ke Telegram Bot admin.",
+          "timestamp": "2026-09-28T14:53:52.844Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_ac8eea070efa",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "File Diunduh oleh Customer",
+          "description": "Customer mengunduh file (Unduhan ke-1). IP: ::ffff:127.0.0.1",
+          "timestamp": "2026-09-28T14:54:10.423Z",
+          "actor": "CUSTOMER",
+          "metadata": {
+            "fileId": "file_dwg_templates",
+            "downloadCount": 1
+          }
+        },
+        {
+          "id": "tl_29915088eb9b",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke test@ruangproyek.com. Subjek: \"Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026\"",
+          "timestamp": "2026-09-28T20:11:26.021Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_86559fb16156",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 081298765432.",
+          "timestamp": "2026-09-28T20:11:26.023Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_76aa8c7df4af",
+          "orderId": "ord_31a8aade822cb3d4",
+          "title": "Follow Up WhatsApp Terkirim",
+          "description": "Pesan otomatis/manual terkirim ke 081298765432: \"Konfirmasi & Akses Produk Lunas #ORD-20260928-385438\"",
+          "timestamp": "2026-09-29T07:25:12.039Z",
+          "actor": "SYSTEM"
+        }
+      ],
+      "createdAt": "2026-09-28T14:53:43.307Z",
+      "updatedAt": "2026-09-28T14:53:52.841Z",
+      "transactionId": "TRX-TEST-001",
+      "paidAt": "2026-09-28T14:53:52.840Z",
+      "downloadToken": "sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014",
+      "licenseKey": "RP-BE83-1490-9444-03D0"
+    },
+    {
+      "id": "ord_101",
+      "orderNumber": "ORD-20260928-000142",
+      "customerId": "cust_budi_santoso",
+      "customerName": "Budi Santoso, S.T.",
+      "customerEmail": "budi.santoso@archprima.co.id",
+      "customerPhone": "6281288992211",
+      "customerCompany": "PT Arch Prima Studio",
+      "items": [
+        {
+          "id": "item_1",
+          "orderId": "ord_101",
+          "productId": "prod_arsitektur_pack",
+          "productName": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+          "productThumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+          "price": 219000,
+          "itemType": "MAIN"
+        },
+        {
+          "id": "item_2",
+          "orderId": "ord_101",
+          "productId": "bump_dwg_blocks",
+          "productName": "Tambahkan 5.000+ Dynamic AutoCAD Blocks",
+          "price": 47000,
+          "itemType": "BUMP"
+        }
+      ],
+      "subtotalAmount": 266000,
+      "discountAmount": 0,
+      "totalAmount": 266000,
+      "paymentMethod": "QRIS",
+      "paymentStatus": "PAID",
+      "deliveryStatus": "DELIVERED",
+      "transactionId": "TRX-QRIS-99281729",
+      "orderBumpAdded": true,
+      "upsellAdded": false,
+      "utmSource": "facebook",
+      "utmMedium": "cpc",
+      "utmCampaign": "arsitek_promo_q3",
+      "downloadToken": "sec_tok_8586b0fd5f537e8e79e6acf1d402fea1",
+      "licenseKey": "ARCH-2026-B812-99FA-X101",
+      "timeline": [
+        {
+          "id": "tl_1",
+          "orderId": "ord_101",
+          "title": "Checkout Dimulai",
+          "description": "Customer mengisi formulir checkout dan memilih metode pembayaran QRIS.",
+          "timestamp": "2026-09-28T10:53:33.455Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_2",
+          "orderId": "ord_101",
+          "title": "Pembayaran Dibuat (QRIS)",
+          "description": "QR Code QRIS dinamis berhasil di-generate senilai Rp 266.000.",
+          "timestamp": "2026-09-28T10:54:18.455Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_3",
+          "orderId": "ord_101",
+          "title": "Webhook Diterima: Pembayaran Lunas",
+          "description": "Payment gateway memvalidasi transaksi lunas via webhook resmi. Status diperbarui ke PAID.",
+          "timestamp": "2026-09-28T10:55:33.455Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_4",
+          "orderId": "ord_101",
+          "title": "Tautan Unduhan Aman Dihasilkan",
+          "description": "Token akses digital unik sec_tok_8586b0fd... dibuat dengan kuota 10 unduhan.",
+          "timestamp": "2026-09-28T10:55:35.455Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_5",
+          "orderId": "ord_101",
+          "title": "Notifikasi Email & WhatsApp Terkirim",
+          "description": "Link download dikirimkan ke budi.santoso@archprima.co.id & WhatsApp 6281288992211.",
+          "timestamp": "2026-09-28T10:55:38.455Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_d2cdc46f48ea",
+          "orderId": "ord_101",
+          "title": "Batas Kuota Unduhan Direset",
+          "description": "Admin Aan Pangestu mereset kuota unduhan (sebelumnya 2/10). Kuota kini kembali utuh 0/10.",
+          "timestamp": "2026-09-28T19:59:50.227Z",
+          "actor": "ADMIN"
+        },
+        {
+          "id": "tl_90f6ac98ad8c",
+          "orderId": "ord_101",
+          "title": "Masa Aktif Tautan Diperpanjang",
+          "description": "Masa aktif tautan diperpanjang +30 hari hingga 27/11/2026.",
+          "timestamp": "2026-09-28T19:59:55.052Z",
+          "actor": "ADMIN"
+        },
+        {
+          "id": "tl_96ef8ef75723",
+          "orderId": "ord_101",
+          "title": "Akses Unduhan Dicabut (Revoked)",
+          "description": "Admin Aan Pangestu mencabut akses unduhan digital untuk order ini.",
+          "timestamp": "2026-09-28T20:00:01.436Z",
+          "actor": "ADMIN"
+        },
+        {
+          "id": "tl_dbdbe3d954a0",
+          "orderId": "ord_101",
+          "title": "Akses Unduhan Diaktifkan Kembali",
+          "description": "Admin Aan Pangestu mengaktifkan kembali akses unduhan digital untuk order ini.",
+          "timestamp": "2026-09-28T20:00:10.033Z",
+          "actor": "ADMIN"
+        },
+        {
+          "id": "tl_06503618b84c",
+          "orderId": "ord_101",
+          "title": "Follow Up WhatsApp Terkirim",
+          "description": "Pesan otomatis/manual terkirim ke 6281288992211: \"Konfirmasi & Akses Produk Lunas #ORD-20260928-000142\"",
+          "timestamp": "2026-09-29T07:25:12.040Z",
+          "actor": "SYSTEM"
+        }
+      ],
+      "internalNotes": "Customer konfirmasi via WhatsApp telah menerima link dan berhasil mendownload file 2.45GB.",
+      "createdAt": "2026-09-28T10:53:33.455Z",
+      "paidAt": "2026-09-28T10:55:33.455Z",
+      "updatedAt": "2026-09-28T14:53:33.455Z"
+    },
+    {
+      "id": "ord_102",
+      "orderNumber": "ORD-20260928-000143",
+      "customerId": "cust_sarah_wijaya",
+      "customerName": "Sarah Wijaya",
+      "customerEmail": "sarah.wijaya@gmail.com",
+      "customerPhone": "6281900112233",
+      "items": [
+        {
+          "id": "item_3",
+          "orderId": "ord_102",
+          "productId": "prod_arsitektur_pack",
+          "productName": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+          "price": 219000,
+          "itemType": "MAIN"
+        }
+      ],
+      "subtotalAmount": 219000,
+      "discountAmount": 0,
+      "totalAmount": 219000,
+      "paymentMethod": "VA_BCA",
+      "paymentStatus": "PAID",
+      "deliveryStatus": "DELIVERED",
+      "transactionId": "MID-TEST-998822",
+      "orderBumpAdded": false,
+      "upsellAdded": false,
+      "utmSource": "tiktok",
+      "utmMedium": "organic",
+      "timeline": [
+        {
+          "id": "tl_201",
+          "orderId": "ord_102",
+          "title": "Checkout Dibuat",
+          "description": "Customer memilih metode BCA Virtual Account.",
+          "timestamp": "2026-09-28T14:23:33.455Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_202",
+          "orderId": "ord_102",
+          "title": "Menunggu Pembayaran",
+          "description": "Nomor VA BCA 8000123991028374 dibuat. Menunggu transfer dari nasabah.",
+          "timestamp": "2026-09-28T14:23:43.455Z",
+          "actor": "PAYMENT_GATEWAY"
+        },
+        {
+          "id": "tl_339ff0e51b6c",
+          "orderId": "ord_102",
+          "title": "Pembayaran Lunas (Webhook Diverifikasi)",
+          "description": "Webhook terverifikasi dari gateway MIDTRANS. Transaction ID: MID-TEST-998822. Signature valid: YA.",
+          "timestamp": "2026-09-28T20:00:16.921Z",
+          "actor": "PAYMENT_GATEWAY",
+          "metadata": {
+            "amount": 219000,
+            "provider": "MIDTRANS"
+          }
+        },
+        {
+          "id": "tl_91c4d7a50c0a",
+          "orderId": "ord_102",
+          "title": "Akses Produk Digital Digenerate",
+          "description": "Secure link token berhasil dibuat. Kuota unduhan: 10x. Kadaluarsa: 28/9/2027.",
+          "timestamp": "2026-09-28T20:00:16.922Z",
+          "actor": "SYSTEM",
+          "metadata": {
+            "secureToken": "sec_92af60ba7b87e28a4ff903e518c12b73ad9f6323e613c0e2",
+            "licenseKey": "RP-1009-3860-F097-66E9"
+          }
+        },
+        {
+          "id": "tl_e054e9bc7c93",
+          "orderId": "ord_102",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke sarah.wijaya@gmail.com. Subjek: \"Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026\"",
+          "timestamp": "2026-09-28T20:00:16.928Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_1df60b9749d6",
+          "orderId": "ord_102",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 6281900112233.",
+          "timestamp": "2026-09-28T20:00:16.928Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_08f94d09029e",
+          "orderId": "ord_102",
+          "title": "Notifikasi Admin Telegram Terkirim",
+          "description": "Notifikasi instan order baru berhasil dikirim ke Telegram Bot admin.",
+          "timestamp": "2026-09-28T20:00:16.929Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_ca1c3eeb29b6",
+          "orderId": "ord_102",
+          "title": "File Diunduh oleh Customer",
+          "description": "Customer mengunduh file (Unduhan ke-1). IP: ::ffff:127.0.0.1",
+          "timestamp": "2026-09-28T20:00:29.663Z",
+          "actor": "CUSTOMER",
+          "metadata": {
+            "fileId": "file_dwg_templates",
+            "downloadCount": 1
+          }
+        },
+        {
+          "id": "tl_ea32fa0d578e",
+          "orderId": "ord_102",
+          "title": "Lisensi Diaktivasi pada Perangkat Baru",
+          "description": "License key RP-1009-3860-F097-66E9 diaktivasi pada \"MacBook Pro M3 Max\" (::ffff:127.0.0.1). Sisa kuota aktivasi: 1.",
+          "timestamp": "2026-09-28T20:00:33.740Z",
+          "actor": "CUSTOMER"
+        },
+        {
+          "id": "tl_9bb693caf6e5",
+          "orderId": "ord_102",
+          "title": "Pembayaran Lunas (Webhook Diverifikasi)",
+          "description": "Webhook terverifikasi dari gateway MIDTRANS. Transaction ID: MID-TEST-998822. Signature valid: YA.",
+          "timestamp": "2026-09-28T20:00:46.557Z",
+          "actor": "PAYMENT_GATEWAY",
+          "metadata": {
+            "amount": 219000,
+            "provider": "MIDTRANS"
+          }
+        },
+        {
+          "id": "tl_574777068a63",
+          "orderId": "ord_102",
+          "title": "Akses Produk Digital Digenerate",
+          "description": "Secure link token berhasil dibuat. Kuota unduhan: 10x. Kadaluarsa: 28/9/2027.",
+          "timestamp": "2026-09-28T20:00:46.557Z",
+          "actor": "SYSTEM",
+          "metadata": {
+            "secureToken": "sec_3fd58a5ec11589cde435c212b056d07da238f92c00469767",
+            "licenseKey": "RP-E9EB-BC6E-966B-DB1A"
+          }
+        },
+        {
+          "id": "tl_889bc9b54521",
+          "orderId": "ord_102",
+          "title": "Email Konfirmasi & Link Akses Terkirim",
+          "description": "Email resmi berhasil dikirim ke sarah.wijaya@gmail.com. Subjek: \"Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026\"",
+          "timestamp": "2026-09-28T20:00:46.558Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_9ca4e05bac3d",
+          "orderId": "ord_102",
+          "title": "WhatsApp Notifikasi Terkirim",
+          "description": "Pesan akses digital WhatsApp terkirim ke 6281900112233.",
+          "timestamp": "2026-09-28T20:00:46.559Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_9c81c0df54c1",
+          "orderId": "ord_102",
+          "title": "Notifikasi Admin Telegram Terkirim",
+          "description": "Notifikasi instan order baru berhasil dikirim ke Telegram Bot admin.",
+          "timestamp": "2026-09-28T20:00:46.559Z",
+          "actor": "SYSTEM"
+        },
+        {
+          "id": "tl_269d4bdd0c70",
+          "orderId": "ord_102",
+          "title": "Follow Up WhatsApp Terkirim",
+          "description": "Pesan otomatis/manual terkirim ke 6281900112233: \"Konfirmasi & Akses Produk Lunas #ORD-20260928-000143\"",
+          "timestamp": "2026-09-29T07:25:12.041Z",
+          "actor": "SYSTEM"
+        }
+      ],
+      "createdAt": "2026-09-28T14:23:33.455Z",
+      "updatedAt": "2026-09-28T20:00:46.557Z",
+      "paidAt": "2026-09-28T20:00:46.556Z",
+      "downloadToken": "sec_3fd58a5ec11589cde435c212b056d07da238f92c00469767",
+      "licenseKey": "RP-E9EB-BC6E-966B-DB1A"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_budi_santoso",
+      "name": "Budi Santoso, S.T.",
+      "email": "budi.santoso@archprima.co.id",
+      "phone": "6281288992211",
+      "company": "PT Arch Prima Studio",
+      "totalOrders": 2,
+      "totalSpent": 485000,
+      "firstOrderAt": "2026-09-18T14:53:33.454Z",
+      "lastOrderAt": "2026-09-27T14:53:33.454Z",
+      "createdAt": "2026-09-18T14:53:33.454Z"
+    },
+    {
+      "id": "cust_sarah_wijaya",
+      "name": "Sarah Wijaya",
+      "email": "sarah.wijaya@gmail.com",
+      "phone": "6281900112233",
+      "totalOrders": 3,
+      "totalSpent": 704000,
+      "firstOrderAt": "2026-09-25T14:53:33.454Z",
+      "lastOrderAt": "2026-09-28T20:00:46.560Z",
+      "createdAt": "2026-09-25T14:53:33.454Z"
+    },
+    {
+      "id": "cust_aan_pangestu",
+      "name": "Aan Pangestu",
+      "email": "aanpangestu09@gmail.com",
+      "phone": "6285712345678",
+      "company": "Ruang Proyek Digital",
+      "totalOrders": 4,
+      "totalSpent": 953000,
+      "firstOrderAt": "2026-09-14T14:53:33.454Z",
+      "lastOrderAt": "2026-09-28T20:10:20.679Z",
+      "createdAt": "2026-09-14T14:53:33.454Z"
+    },
+    {
+      "id": "cust_06862fe524f7",
+      "name": "Testing User",
+      "email": "test@ruangproyek.com",
+      "phone": "081298765432",
+      "totalOrders": 1,
+      "totalSpent": 266000,
+      "firstOrderAt": "2026-09-28T14:53:43.307Z",
+      "lastOrderAt": "2026-09-28T14:53:52.845Z",
+      "createdAt": "2026-09-28T14:53:43.307Z"
+    },
+    {
+      "id": "cust_113f690f273b",
+      "name": "Rian Pratama",
+      "email": "rian.pratama@gmail.com",
+      "phone": "081234567890",
+      "totalOrders": 1,
+      "totalSpent": 148000,
+      "firstOrderAt": "2026-09-28T20:17:02.319Z",
+      "lastOrderAt": "2026-09-28T20:17:06.108Z",
+      "createdAt": "2026-09-28T20:17:02.319Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coup_bright20",
+      "code": "BRIGHT20",
+      "discountType": "PERCENT",
+      "discountValue": 20,
+      "minPurchase": 150000,
+      "maxDiscount": 50000,
+      "usageLimit": 500,
+      "usageCount": 142,
+      "perCustomerLimit": 1,
+      "startDate": "2026-08-29T14:53:33.454Z",
+      "endDate": "2026-11-27T14:53:33.454Z",
+      "applicableProductIds": [],
+      "isActive": true
+    },
+    {
+      "id": "coup_hemat30k",
+      "code": "HEMAT30K",
+      "discountType": "FIXED",
+      "discountValue": 30000,
+      "minPurchase": 200000,
+      "maxDiscount": 30000,
+      "usageLimit": 200,
+      "usageCount": 88,
+      "perCustomerLimit": 1,
+      "startDate": "2026-09-13T14:53:33.454Z",
+      "endDate": "2026-11-12T14:53:33.454Z",
+      "applicableProductIds": [],
+      "isActive": true
+    }
+  ],
+  "abandonedCheckouts": [
+    {
+      "id": "ab_1",
+      "customerName": "Rian Pratama",
+      "customerEmail": "rian.pratama99@gmail.com",
+      "customerPhone": "6281399887766",
+      "productId": "prod_arsitektur_pack",
+      "productName": "10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "totalAmount": 266000,
+      "recovered": false,
+      "remindersSent": 1,
+      "lastReminderSentAt": "2026-09-28T12:53:33.455Z",
+      "createdAt": "2026-09-28T11:53:33.455Z"
+    }
+  ],
+  "notificationLogs": [
+    {
+      "id": "notif_wa_9cd16d03ff0f",
+      "orderId": "ord_102",
+      "channel": "WHATSAPP",
+      "recipient": "6281900112233",
+      "subjectOrTitle": "Konfirmasi & Akses Produk Lunas #ORD-20260928-000143",
+      "messageBody": "Halo Sarah Wijaya 🎉\n\nPembayaran untuk pesanan *ORD-20260928-000143* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\n• Total: Rp 219.000\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 http://localhost:3000/download/sec_92af60ba7b87e28a4ff903e518c12b73ad9f6323e613c0e2\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:12.041Z"
+    },
+    {
+      "id": "notif_wa_12cbf7ccd5cd",
+      "orderId": "ord_101",
+      "channel": "WHATSAPP",
+      "recipient": "6281288992211",
+      "subjectOrTitle": "Konfirmasi & Akses Produk Lunas #ORD-20260928-000142",
+      "messageBody": "Halo Budi Santoso, S.T. 🎉\n\nPembayaran untuk pesanan *ORD-20260928-000142* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\n• Total: Rp 266.000\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 http://localhost:3000/download/sec_tok_8586b0fd5f537e8e79e6acf1d402fea1\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:12.040Z"
+    },
+    {
+      "id": "notif_wa_aa7c2b15f1a9",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "WHATSAPP",
+      "recipient": "081298765432",
+      "subjectOrTitle": "Konfirmasi & Akses Produk Lunas #ORD-20260928-385438",
+      "messageBody": "Halo Testing User 🎉\n\nPembayaran untuk pesanan *ORD-20260928-385438* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\n• Total: Rp 266.000\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 http://localhost:3000/download/sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:12.039Z"
+    },
+    {
+      "id": "notif_wa_307e4ae4d255",
+      "orderId": "ord_ba6c9170889f7897",
+      "channel": "WHATSAPP",
+      "recipient": "086123713475",
+      "subjectOrTitle": "Konfirmasi & Akses Produk Lunas #ORD-20260928-184979",
+      "messageBody": "Halo Aan pangestu 🎉\n\nPembayaran untuk pesanan *ORD-20260928-184979* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\n• Total: Rp 363.000\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 http://localhost:3000/download/sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:12.038Z"
+    },
+    {
+      "id": "notif_wa_07168ebf45c5",
+      "orderId": "ord_dad01657540308c3",
+      "channel": "WHATSAPP",
+      "recipient": "081234567890",
+      "subjectOrTitle": "Konfirmasi & Akses Produk Lunas #ORD-20260928-932709",
+      "messageBody": "Halo Rian Pratama 🎉\n\nPembayaran untuk pesanan *ORD-20260928-932709* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *Laporan Kas Proyek Otomatis*\n• Total: Rp 148.000\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 http://localhost:3000/download/sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:12.037Z"
+    },
+    {
+      "id": "notif_wa_67f3a846ab09",
+      "orderId": "test_order",
+      "channel": "WHATSAPP",
+      "recipient": "6281234567890",
+      "subjectOrTitle": "[TEST] Follow-Up (waitingPayment) ke 6281234567890",
+      "messageBody": "Halo Rian Pratama, S.T. 👋\n\nTerima kasih telah memesan *10.000+ Template Arsitektur & Engineering Pack Pro 2026*.\n\nPesanan Anda dengan nomor *ORD-TEST-9921* sebesar *Rp 219.000* saat ini masih menunggu penyelesaian pembayaran.\n\nSegera selesaikan pembayaran melalui tautan berikut sebelum batas waktu berakhir:\n👉 http://localhost:3000/checkout/10000-template-arsitektur-pro?order=ORD-TEST-9921\n\nJika Anda mengalami kendala saat transfer atau butuh bantuan rekening, jangan ragu untuk membalas pesan ini ya! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-29T07:25:06.232Z"
+    },
+    {
+      "id": "notif_tg_54272a771375",
+      "orderId": "ord_dad01657540308c3",
+      "channel": "TELEGRAM",
+      "recipient": "Telegram Admin Channel (-100987654321)",
+      "subjectOrTitle": "Admin Alert ORD-20260928-932709",
+      "messageBody": "🔔 *PESANAN BARU BERHASIL DIVERIFIKASI*\n\nOrder: `ORD-20260928-932709`\nCustomer: *Rian Pratama* (081234567890)\nEmail: rian.pratama@gmail.com\nProduct: *Laporan Kas Proyek Otomatis*\nOrder Bump: *Ya (+Dynamic Blocks)*\nTotal: *Rp 148.000*\nMetode: *VA_BRI*\nUTM Source: Direct / Organic\nStatus: *PAID (Delivery Sent)*\n\n🕒 20.17.06 WIB",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:17:06.107Z"
+    },
+    {
+      "id": "notif_wa_5d5e7179ee64",
+      "orderId": "ord_dad01657540308c3",
+      "channel": "WHATSAPP",
+      "recipient": "081234567890",
+      "subjectOrTitle": "WhatsApp ke 081234567890",
+      "messageBody": "Halo *Rian Pratama* 👋\n\nPembayaran Anda untuk *Laporan Kas Proyek Otomatis* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-932709\n• Total: Rp 148.000\n• Pembayaran: VA_BRI\n• Status: *PAID (Lunas)*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:17:06.106Z"
+    },
+    {
+      "id": "notif_email_a72f9971172f",
+      "orderId": "ord_dad01657540308c3",
+      "channel": "EMAIL",
+      "recipient": "rian.pratama@gmail.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — Laporan Kas Proyek Otomatis",
+      "messageBody": "Halo Rian Pratama,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-932709 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-932709\n- Produk: Laporan Kas Proyek Otomatis\n- Total Pembayaran: Rp 148.000\n- Metode Pembayaran: VA_BRI\n- Status: SUKSES / LUNAS\n\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:17:06.104Z"
+    },
+    {
+      "id": "notif_wa_8b676dfdc3df",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "WHATSAPP",
+      "recipient": "081298765432",
+      "subjectOrTitle": "WhatsApp ke 081298765432",
+      "messageBody": "Halo *Testing User* 👋\n\nPembayaran Anda untuk *10.000+ Template Arsitektur & Engineering Pack Pro 2026* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-385438\n• Total: Rp 266.000\n• Pembayaran: QRIS\n• Status: *PAID (Lunas)*\n• License Key: *RP-BE83-1490-9444-03D0*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:11:26.023Z"
+    },
+    {
+      "id": "notif_email_9fc77fe5ad4d",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "EMAIL",
+      "recipient": "test@ruangproyek.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "messageBody": "Halo Testing User,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-385438 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-385438\n- Produk: 10.000+ Template Arsitektur & Engineering Pack Pro 2026\n- Total Pembayaran: Rp 266.000\n- Metode Pembayaran: QRIS\n- Status: SUKSES / LUNAS\n\nLisensi Produk Anda:\n[ RP-BE83-1490-9444-03D0 ]\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:11:26.021Z"
+    },
+    {
+      "id": "notif_tg_00f0c2fc7491",
+      "orderId": "ord_ba6c9170889f7897",
+      "channel": "TELEGRAM",
+      "recipient": "Telegram Admin Channel (-100987654321)",
+      "subjectOrTitle": "Admin Alert ORD-20260928-184979",
+      "messageBody": "🔔 *PESANAN BARU BERHASIL DIVERIFIKASI*\n\nOrder: `ORD-20260928-184979`\nCustomer: *Aan pangestu* (086123713475)\nEmail: aanpangestu09@gmail.com\nProduct: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\nOrder Bump: *Ya (+Dynamic Blocks)*\nTotal: *Rp 266.000*\nMetode: *QRIS*\nUTM Source: direct\nStatus: *PAID (Delivery Sent)*\n\n🕒 20.10.20 WIB",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:10:20.678Z"
+    },
+    {
+      "id": "notif_wa_873542ccb665",
+      "orderId": "ord_ba6c9170889f7897",
+      "channel": "WHATSAPP",
+      "recipient": "086123713475",
+      "subjectOrTitle": "WhatsApp ke 086123713475",
+      "messageBody": "Halo *Aan pangestu* 👋\n\nPembayaran Anda untuk *10.000+ Template Arsitektur & Engineering Pack Pro 2026* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-184979\n• Total: Rp 266.000\n• Pembayaran: QRIS\n• Status: *PAID (Lunas)*\n• License Key: *RP-46A9-1AA7-39F1-3D72*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:10:20.677Z"
+    },
+    {
+      "id": "notif_email_0fdb5d7dfff1",
+      "orderId": "ord_ba6c9170889f7897",
+      "channel": "EMAIL",
+      "recipient": "aanpangestu09@gmail.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "messageBody": "Halo Aan pangestu,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-184979 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-184979\n- Produk: 10.000+ Template Arsitektur & Engineering Pack Pro 2026\n- Total Pembayaran: Rp 266.000\n- Metode Pembayaran: QRIS\n- Status: SUKSES / LUNAS\n\nLisensi Produk Anda:\n[ RP-46A9-1AA7-39F1-3D72 ]\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:10:20.677Z"
+    },
+    {
+      "id": "notif_tg_9ba49dcfd570",
+      "orderId": "ord_102",
+      "channel": "TELEGRAM",
+      "recipient": "Telegram Admin Channel (-100987654321)",
+      "subjectOrTitle": "Admin Alert ORD-20260928-000143",
+      "messageBody": "🔔 *PESANAN BARU BERHASIL DIVERIFIKASI*\n\nOrder: `ORD-20260928-000143`\nCustomer: *Sarah Wijaya* (6281900112233)\nEmail: sarah.wijaya@gmail.com\nProduct: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\nTotal: *Rp 219.000*\nMetode: *VA_BCA*\nUTM Source: tiktok\nStatus: *PAID (Delivery Sent)*\n\n🕒 20.00.46 WIB",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:46.559Z"
+    },
+    {
+      "id": "notif_wa_c46c94a7c74e",
+      "orderId": "ord_102",
+      "channel": "WHATSAPP",
+      "recipient": "6281900112233",
+      "subjectOrTitle": "WhatsApp ke 6281900112233",
+      "messageBody": "Halo *Sarah Wijaya* 👋\n\nPembayaran Anda untuk *10.000+ Template Arsitektur & Engineering Pack Pro 2026* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-000143\n• Total: Rp 219.000\n• Pembayaran: VA_BCA\n• Status: *PAID (Lunas)*\n• License Key: *RP-E9EB-BC6E-966B-DB1A*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_3fd58a5ec11589cde435c212b056d07da238f92c00469767\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:46.559Z"
+    },
+    {
+      "id": "notif_email_bee224ef7843",
+      "orderId": "ord_102",
+      "channel": "EMAIL",
+      "recipient": "sarah.wijaya@gmail.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "messageBody": "Halo Sarah Wijaya,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-000143 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-000143\n- Produk: 10.000+ Template Arsitektur & Engineering Pack Pro 2026\n- Total Pembayaran: Rp 219.000\n- Metode Pembayaran: VA_BCA\n- Status: SUKSES / LUNAS\n\nLisensi Produk Anda:\n[ RP-E9EB-BC6E-966B-DB1A ]\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_3fd58a5ec11589cde435c212b056d07da238f92c00469767\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:46.558Z"
+    },
+    {
+      "id": "notif_tg_8d87a34f8753",
+      "orderId": "ord_102",
+      "channel": "TELEGRAM",
+      "recipient": "Telegram Admin Channel (-100987654321)",
+      "subjectOrTitle": "Admin Alert ORD-20260928-000143",
+      "messageBody": "🔔 *PESANAN BARU BERHASIL DIVERIFIKASI*\n\nOrder: `ORD-20260928-000143`\nCustomer: *Sarah Wijaya* (6281900112233)\nEmail: sarah.wijaya@gmail.com\nProduct: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\nTotal: *Rp 219.000*\nMetode: *VA_BCA*\nUTM Source: tiktok\nStatus: *PAID (Delivery Sent)*\n\n🕒 20.00.16 WIB",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:16.929Z"
+    },
+    {
+      "id": "notif_wa_1efb573bb99c",
+      "orderId": "ord_102",
+      "channel": "WHATSAPP",
+      "recipient": "6281900112233",
+      "subjectOrTitle": "WhatsApp ke 6281900112233",
+      "messageBody": "Halo *Sarah Wijaya* 👋\n\nPembayaran Anda untuk *10.000+ Template Arsitektur & Engineering Pack Pro 2026* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-000143\n• Total: Rp 219.000\n• Pembayaran: VA_BCA\n• Status: *PAID (Lunas)*\n• License Key: *RP-1009-3860-F097-66E9*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_92af60ba7b87e28a4ff903e518c12b73ad9f6323e613c0e2\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:16.928Z"
+    },
+    {
+      "id": "notif_email_7e944b90df4d",
+      "orderId": "ord_102",
+      "channel": "EMAIL",
+      "recipient": "sarah.wijaya@gmail.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "messageBody": "Halo Sarah Wijaya,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-000143 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-000143\n- Produk: 10.000+ Template Arsitektur & Engineering Pack Pro 2026\n- Total Pembayaran: Rp 219.000\n- Metode Pembayaran: VA_BCA\n- Status: SUKSES / LUNAS\n\nLisensi Produk Anda:\n[ RP-1009-3860-F097-66E9 ]\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_92af60ba7b87e28a4ff903e518c12b73ad9f6323e613c0e2\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T20:00:16.927Z"
+    },
+    {
+      "id": "notif_tg_14649c1ca728",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "TELEGRAM",
+      "recipient": "Telegram Admin Channel (-100987654321)",
+      "subjectOrTitle": "Admin Alert ORD-20260928-385438",
+      "messageBody": "🔔 *PESANAN BARU BERHASIL DIVERIFIKASI*\n\nOrder: `ORD-20260928-385438`\nCustomer: *Testing User* (081298765432)\nEmail: test@ruangproyek.com\nProduct: *10.000+ Template Arsitektur & Engineering Pack Pro 2026*\nOrder Bump: *Ya (+Dynamic Blocks)*\nTotal: *Rp 266.000*\nMetode: *QRIS*\nUTM Source: Direct / Organic\nStatus: *PAID (Delivery Sent)*\n\n🕒 14.53.52 WIB",
+      "status": "SENT",
+      "sentAt": "2026-09-28T14:53:52.844Z"
+    },
+    {
+      "id": "notif_wa_46a5656f84aa",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "WHATSAPP",
+      "recipient": "081298765432",
+      "subjectOrTitle": "WhatsApp ke 081298765432",
+      "messageBody": "Halo *Testing User* 👋\n\nPembayaran Anda untuk *10.000+ Template Arsitektur & Engineering Pack Pro 2026* telah BERHASIL diverifikasi! 🎉\n\n📋 *Rincian Pesanan:*\n• Order ID: ORD-20260928-385438\n• Total: Rp 266.000\n• Pembayaran: QRIS\n• Status: *PAID (Lunas)*\n• License Key: *RP-BE83-1490-9444-03D0*\n\n🚀 *Akses & Download Produk Anda Sekarang:*\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014\n\n_Simpan pesan ini untuk mengakses file Anda kapan saja._\n\nJika butuh panduan, tim kami siap membantu. Terima kasih telah menggunakan Ruang Proyek! 🙏",
+      "status": "SENT",
+      "sentAt": "2026-09-28T14:53:52.843Z"
+    },
+    {
+      "id": "notif_email_0a729cd0ba77",
+      "orderId": "ord_31a8aade822cb3d4",
+      "channel": "EMAIL",
+      "recipient": "test@ruangproyek.com",
+      "subjectOrTitle": "Pesanan Anda Berhasil — 10.000+ Template Arsitektur & Engineering Pack Pro 2026",
+      "messageBody": "Halo Testing User,\n\nTerima kasih atas kepercayaan Anda berbelanja di Ruang Proyek.\nPembayaran untuk pesanan ORD-20260928-385438 telah kami terima dan diverifikasi.\n\nRincian Pesanan:\n- Order ID: ORD-20260928-385438\n- Produk: 10.000+ Template Arsitektur & Engineering Pack Pro 2026\n- Total Pembayaran: Rp 266.000\n- Metode Pembayaran: QRIS\n- Status: SUKSES / LUNAS\n\nLisensi Produk Anda:\n[ RP-BE83-1490-9444-03D0 ]\n\n\nAkses & Unduh Produk Anda di tautan aman berikut:\nhttps://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/download/sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014\n\nTautan unduhan di atas bersifat pribadi dan aman. Jika Anda membutuhkan bantuan, silakan hubungi tim kami via WhatsApp di 6281234567890 atau email support@ruangproyek.id.\n\nSalam hangat,\nTim Ruang Proyek",
+      "status": "SENT",
+      "sentAt": "2026-09-28T14:53:52.843Z"
+    }
+  ],
+  "webhookLogs": [
+    {
+      "id": "wh_e8677218e283",
+      "provider": "Midtrans",
+      "eventName": "settlement",
+      "payloadHash": "c0da890e19592ba06db1a5703d5728d4c89a6728199266414f15211c22ef0547",
+      "payload": {
+        "orderNumber": "ORD-20260928-932709",
+        "transactionId": "TRX-1790626626095",
+        "transactionStatus": "settlement",
+        "grossAmount": 0,
+        "provider": "Midtrans",
+        "headers": {
+          "host": "localhost:3000",
+          "user-agent": "curl/7.88.1",
+          "accept": "*/*",
+          "content-type": "application/json",
+          "content-length": "92"
+        },
+        "signatureValid": true
+      },
+      "headers": {
+        "host": "localhost:3000",
+        "user-agent": "curl/7.88.1",
+        "accept": "*/*",
+        "content-type": "application/json",
+        "content-length": "92"
+      },
+      "signatureValid": true,
+      "status": "PROCESSED",
+      "processedAt": "2026-09-28T20:17:06.108Z"
+    },
+    {
+      "id": "wh_27e4d37d7ab3",
+      "provider": "CENTRAL_GATEWAY",
+      "eventName": "settlement",
+      "payloadHash": "62060f925eb02e0ee8c382cbf5689851006c2e6a5acb409827a75321fce548b6",
+      "payload": {
+        "orderNumber": "ORD-20260928-184979",
+        "transactionId": "TRX-1790626220346",
+        "transactionStatus": "settlement",
+        "grossAmount": 266000,
+        "provider": "CENTRAL_GATEWAY",
+        "headers": {
+          "host": "localhost:3000",
+          "x-forwarded-host": "ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app",
+          "x-real-ip": "169.254.169.126",
+          "x-forwarded-for": "9.154.36.152, 169.254.169.126",
+          "x-forwarded-proto": "http",
+          "connection": "upgrade",
+          "content-length": "127",
+          "sec-ch-ua-full-version-list": "\"Google Chrome\";v=\"153.0.8010.53\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.53\"",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "sec-ch-ua": "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+          "sec-ch-ua-bitness": "\"64\"",
+          "sec-ch-ua-model": "\"\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-form-factors": "\"Desktop\"",
+          "sec-ch-ua-wow64": "?0",
+          "sec-ch-ua-arch": "\"arm\"",
+          "sec-ch-ua-full-version": "\"153.0.8010.53\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "content-type": "application/json",
+          "sec-ch-ua-platform-version": "\"26.0.1\"",
+          "accept": "*/*",
+          "origin": "https://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-storage-access": "active",
+          "referer": "https://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/",
+          "accept-language": "id,en-US;q=0.9,en;q=0.8",
+          "priority": "u=1, i",
+          "x-cloud-trace-context": "a311eed4b018503f262094b0db576ae3/7023082368007878048",
+          "cookie": "__SECURE-aistudio_auth_token=QZEPJpA50GMGXQaiEDFlU4j9zBLF-S06awV3yxCIP9E=",
+          "traceparent": "00-a311eed4b018503f262094b0db576ae3-617700342d6b35a0-00",
+          "forwarded": "for=\"9.154.36.152\";proto=https"
+        },
+        "signatureValid": true
+      },
+      "headers": {
+        "host": "localhost:3000",
+        "x-forwarded-host": "ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app",
+        "x-real-ip": "169.254.169.126",
+        "x-forwarded-for": "9.154.36.152, 169.254.169.126",
+        "x-forwarded-proto": "http",
+        "connection": "upgrade",
+        "content-length": "127",
+        "sec-ch-ua-full-version-list": "\"Google Chrome\";v=\"153.0.8010.53\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.53\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-ch-ua": "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+        "sec-ch-ua-bitness": "\"64\"",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-form-factors": "\"Desktop\"",
+        "sec-ch-ua-wow64": "?0",
+        "sec-ch-ua-arch": "\"arm\"",
+        "sec-ch-ua-full-version": "\"153.0.8010.53\"",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "content-type": "application/json",
+        "sec-ch-ua-platform-version": "\"26.0.1\"",
+        "accept": "*/*",
+        "origin": "https://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-storage-access": "active",
+        "referer": "https://ais-dev-jodvc2uzgupocuahfnnxym-903459278955.asia-east1.run.app/",
+        "accept-language": "id,en-US;q=0.9,en;q=0.8",
+        "priority": "u=1, i",
+        "x-cloud-trace-context": "a311eed4b018503f262094b0db576ae3/7023082368007878048",
+        "cookie": "__SECURE-aistudio_auth_token=QZEPJpA50GMGXQaiEDFlU4j9zBLF-S06awV3yxCIP9E=",
+        "traceparent": "00-a311eed4b018503f262094b0db576ae3-617700342d6b35a0-00",
+        "forwarded": "for=\"9.154.36.152\";proto=https"
+      },
+      "signatureValid": true,
+      "status": "PROCESSED",
+      "processedAt": "2026-09-28T20:10:20.679Z"
+    },
+    {
+      "id": "wh_d91848e9aab5",
+      "provider": "MIDTRANS",
+      "eventName": "settlement",
+      "payloadHash": "c93640cd066bab85a424c6af2a338b2565b60a64714b0883638337d283f8b0f3",
+      "payload": {
+        "orderNumber": "ORD-20260928-000143",
+        "transactionId": "MID-TEST-998822",
+        "transactionStatus": "settlement",
+        "grossAmount": 219000,
+        "provider": "MIDTRANS",
+        "headers": {
+          "host": "localhost:3000",
+          "user-agent": "curl/7.88.1",
+          "accept": "*/*",
+          "content-type": "application/json",
+          "content-length": "147"
+        },
+        "signatureValid": true,
+        "forceReplay": true
+      },
+      "headers": {
+        "host": "localhost:3000",
+        "user-agent": "curl/7.88.1",
+        "accept": "*/*",
+        "content-type": "application/json",
+        "content-length": "147"
+      },
+      "signatureValid": true,
+      "status": "PROCESSED",
+      "processedAt": "2026-09-28T20:00:46.560Z"
+    },
+    {
+      "id": "wh_6e304a76bcb3",
+      "provider": "MIDTRANS",
+      "eventName": "settlement",
+      "payloadHash": "4723cd5efff949b82a97d098572cbdec26d9283c9d272f74fb256f7fc3701e13",
+      "payload": {
+        "orderNumber": "ORD-20260928-000143",
+        "transactionId": "MID-TEST-998822",
+        "transactionStatus": "settlement",
+        "grossAmount": 219000,
+        "provider": "MIDTRANS",
+        "headers": {
+          "host": "localhost:3000",
+          "user-agent": "curl/7.88.1",
+          "accept": "*/*",
+          "content-type": "application/json",
+          "content-length": "147"
+        },
+        "signatureValid": true
+      },
+      "headers": {
+        "host": "localhost:3000",
+        "user-agent": "curl/7.88.1",
+        "accept": "*/*",
+        "content-type": "application/json",
+        "content-length": "147"
+      },
+      "signatureValid": true,
+      "status": "PROCESSED",
+      "processedAt": "2026-09-28T20:00:16.931Z"
+    },
+    {
+      "id": "wh_26638aa1f2a3",
+      "provider": "SANDBOX",
+      "eventName": "settlement",
+      "payloadHash": "6278b757b006c8fa329ea6b329f8166072116d9c35069eb87d419487a7eb4edc",
+      "payload": {
+        "orderNumber": "ORD-20260928-385438",
+        "transactionId": "TRX-TEST-001",
+        "transactionStatus": "settlement",
+        "grossAmount": 266000
+      },
+      "status": "PROCESSED",
+      "processedAt": "2026-09-28T14:53:52.845Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_d570c3770638",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "CHANGE_PASSWORD",
+      "targetType": "ADMIN_ACCOUNT",
+      "targetId": "admin_1",
+      "details": "Admin berhasil mengubah password akun",
+      "ipAddress": "::ffff:127.0.0.1",
+      "createdAt": "2026-09-29T07:19:30.120Z"
+    },
+    {
+      "id": "audit_cd4c52152a50",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "CREATE_PRODUCT",
+      "targetType": "PRODUCT",
+      "targetId": "prod_eddbe73d753c",
+      "details": "Membuat produk baru: Laporan Kas Proyek Otomatis (SKU: RP-PROD-806)",
+      "ipAddress": "::ffff:127.0.0.1",
+      "createdAt": "2026-09-29T06:56:46.161Z"
+    },
+    {
+      "id": "audit_9f2ce6245942",
+      "userName": "Webhook Gateway (Midtrans)",
+      "userRole": "SUPER_ADMIN",
+      "action": "PAYMENT_VERIFIED_PAID",
+      "targetType": "ORDER",
+      "targetId": "ord_dad01657540308c3",
+      "details": "Pembayaran ORD-20260928-932709 diverifikasi senilai Rp 148.000",
+      "ipAddress": "Payment-Gateway-IP",
+      "createdAt": "2026-09-28T20:17:06.108Z"
+    },
+    {
+      "id": "audit_e8dcd48e0eb6",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "RESEND_DIGITAL_DELIVERY",
+      "targetType": "ORDER",
+      "targetId": "ord_31a8aade822cb3d4",
+      "details": "Mengirim ulang link akses digital untuk pesanan ORD-20260928-385438",
+      "ipAddress": "::ffff:127.0.0.1",
+      "createdAt": "2026-09-28T20:11:26.024Z"
+    },
+    {
+      "id": "audit_0e170109fce2",
+      "userName": "Webhook Gateway (CENTRAL_GATEWAY)",
+      "userRole": "SUPER_ADMIN",
+      "action": "PAYMENT_VERIFIED_PAID",
+      "targetType": "ORDER",
+      "targetId": "ord_ba6c9170889f7897",
+      "details": "Pembayaran ORD-20260928-184979 diverifikasi senilai Rp 266.000",
+      "ipAddress": "Payment-Gateway-IP",
+      "createdAt": "2026-09-28T20:10:20.679Z"
+    },
+    {
+      "id": "audit_665049c98f54",
+      "userName": "Webhook Gateway (MIDTRANS)",
+      "userRole": "SUPER_ADMIN",
+      "action": "PAYMENT_VERIFIED_PAID",
+      "targetType": "ORDER",
+      "targetId": "ord_102",
+      "details": "Pembayaran ORD-20260928-000143 diverifikasi senilai Rp 219.000",
+      "ipAddress": "Payment-Gateway-IP",
+      "createdAt": "2026-09-28T20:00:46.560Z"
+    },
+    {
+      "id": "audit_f12dd4411ca9",
+      "userName": "Webhook Gateway (MIDTRANS)",
+      "userRole": "SUPER_ADMIN",
+      "action": "PAYMENT_VERIFIED_PAID",
+      "targetType": "ORDER",
+      "targetId": "ord_102",
+      "details": "Pembayaran ORD-20260928-000143 diverifikasi senilai Rp 219.000",
+      "ipAddress": "Payment-Gateway-IP",
+      "createdAt": "2026-09-28T20:00:16.931Z"
+    },
+    {
+      "id": "audit_72ebb3413613",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "RESTORE_DOWNLOAD_ACCESS",
+      "targetType": "DOWNLOAD",
+      "targetId": "dl_101",
+      "details": "Memulihkan akses tautan unduhan sec_tok_8586b0fd5f537e8e79e6acf1d402fea1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-09-28T20:00:10.033Z"
+    },
+    {
+      "id": "audit_c3c8f7fd6bd3",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "REVOKE_DOWNLOAD_ACCESS",
+      "targetType": "DOWNLOAD",
+      "targetId": "dl_101",
+      "details": "Mencabut akses tautan unduhan sec_tok_8586b0fd5f537e8e79e6acf1d402fea1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-09-28T20:00:01.436Z"
+    },
+    {
+      "id": "audit_875534a9bd6b",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "RESET_DOWNLOAD_QUOTA",
+      "targetType": "DOWNLOAD",
+      "targetId": "dl_101",
+      "details": "Mereset kuota unduhan token sec_tok_8586b0fd5f537e8e79e6acf1d402fea1 untuk order ORD-20260928-000142",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-09-28T19:59:50.227Z"
+    },
+    {
+      "id": "audit_1c9b5b7d5d41",
+      "userName": "Sistem Otomatis (Webhook)",
+      "userRole": "SUPER_ADMIN",
+      "action": "PAYMENT_VERIFIED_PAID",
+      "targetType": "ORDER",
+      "targetId": "ord_31a8aade822cb3d4",
+      "details": "Pembayaran ORD-20260928-385438 diverifikasi senilai Rp 266.000",
+      "ipAddress": "Payment-Gateway-IP",
+      "createdAt": "2026-09-28T14:53:52.845Z"
+    },
+    {
+      "id": "audit_1",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "UPDATE_PRODUCT_PRICE",
+      "targetType": "PRODUCT",
+      "targetId": "prod_arsitektur_pack",
+      "details": "Mengubah harga diskon produk 10.000+ Template Arsitektur menjadi Rp 219.000",
+      "ipAddress": "114.124.201.88",
+      "createdAt": "2026-09-27T14:53:33.455Z"
+    },
+    {
+      "id": "audit_2",
+      "userName": "Aan Pangestu",
+      "userRole": "SUPER_ADMIN",
+      "action": "CREATE_ORDER_BUMP",
+      "targetType": "ORDER_BUMP",
+      "targetId": "bump_dwg_blocks",
+      "details": "Menambahkan order bump Dynamic AutoCAD Blocks seharga Rp 47.000",
+      "ipAddress": "114.124.201.88",
+      "createdAt": "2026-09-27T15:16:53.455Z"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "dl_101",
+      "orderId": "ord_101",
+      "productId": "prod_arsitektur_pack",
+      "secureToken": "sec_tok_8586b0fd5f537e8e79e6acf1d402fea1",
+      "tokenExpiresAt": "2026-11-27T14:53:33.455Z",
+      "downloadLimit": 10,
+      "downloadCount": 0,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T10:53:33.455Z",
+      "downloadLogs": [
+        {
+          "id": "log_1",
+          "fileId": "file_dwg_templates",
+          "fileName": "AutoCAD_Library_DWG_Full_Pack_v4.2.zip",
+          "downloadedAt": "2026-09-28T11:23:33.455Z",
+          "ipAddress": "180.252.164.22"
+        },
+        {
+          "id": "log_2",
+          "fileId": "file_rab_excel",
+          "fileName": "RAB_Otomatis_Formula_SNI_2026_AHSP.xlsx",
+          "downloadedAt": "2026-09-28T11:53:33.455Z",
+          "ipAddress": "180.252.164.22"
+        }
+      ]
+    },
+    {
+      "id": "dl_cf0feb2115734212",
+      "orderId": "ord_31a8aade822cb3d4",
+      "productId": "prod_arsitektur_pack",
+      "secureToken": "sec_9da5f570c6cdd492ae2ffa646bf2e35772db4e5a0a880014",
+      "tokenExpiresAt": "2027-09-28T14:53:52.840Z",
+      "downloadLimit": 10,
+      "downloadCount": 1,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T14:53:52.840Z",
+      "downloadLogs": [
+        {
+          "id": "log_84574112fdcc",
+          "fileId": "file_dwg_templates",
+          "fileName": "File_file_dwg_templates",
+          "downloadedAt": "2026-09-28T14:54:10.423Z",
+          "ipAddress": "::ffff:127.0.0.1"
+        }
+      ]
+    },
+    {
+      "id": "dl_6ceaa7b7685c7692",
+      "orderId": "ord_102",
+      "productId": "prod_arsitektur_pack",
+      "secureToken": "sec_92af60ba7b87e28a4ff903e518c12b73ad9f6323e613c0e2",
+      "tokenExpiresAt": "2027-09-28T20:00:16.922Z",
+      "downloadLimit": 10,
+      "downloadCount": 1,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T20:00:16.922Z",
+      "downloadLogs": [
+        {
+          "id": "log_3e67799bd284",
+          "fileId": "file_dwg_templates",
+          "fileName": "File_file_dwg_templates",
+          "downloadedAt": "2026-09-28T20:00:29.662Z",
+          "ipAddress": "::ffff:127.0.0.1"
+        }
+      ]
+    },
+    {
+      "id": "dl_f23c366a24cab5d4",
+      "orderId": "ord_102",
+      "productId": "prod_arsitektur_pack",
+      "secureToken": "sec_3fd58a5ec11589cde435c212b056d07da238f92c00469767",
+      "tokenExpiresAt": "2027-09-28T20:00:46.557Z",
+      "downloadLimit": 10,
+      "downloadCount": 0,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T20:00:46.557Z",
+      "downloadLogs": []
+    },
+    {
+      "id": "dl_ddb8d9410bffed7c",
+      "orderId": "ord_ba6c9170889f7897",
+      "productId": "prod_arsitektur_pack",
+      "secureToken": "sec_6aa1b3682ad630168ab7de75ae0990997fae878dd2cdd630",
+      "tokenExpiresAt": "2027-09-28T20:10:20.671Z",
+      "downloadLimit": 10,
+      "downloadCount": 0,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T20:10:20.671Z",
+      "downloadLogs": []
+    },
+    {
+      "id": "dl_a000ecbfe5407768",
+      "orderId": "ord_dad01657540308c3",
+      "productId": "prod_buku_kas",
+      "secureToken": "sec_fd8d99f58f33f5e221740f8bb7aa22414dd0e9dc5c7858a3",
+      "tokenExpiresAt": "2027-09-28T20:17:06.096Z",
+      "downloadLimit": 10,
+      "downloadCount": 0,
+      "isRevoked": false,
+      "createdAt": "2026-09-28T20:17:06.096Z",
+      "downloadLogs": []
+    }
+  ],
+  "licenses": [
+    {
+      "id": "lic_9798a6b0acbf151f",
+      "orderId": "ord_31a8aade822cb3d4",
+      "productId": "prod_arsitektur_pack",
+      "licenseKey": "RP-BE83-1490-9444-03D0",
+      "status": "ACTIVE",
+      "activationLimit": 2,
+      "activatedCount": 0,
+      "expiresAt": "2027-09-28T14:53:52.840Z"
+    },
+    {
+      "id": "lic_44470be9b1358888",
+      "orderId": "ord_102",
+      "productId": "prod_arsitektur_pack",
+      "licenseKey": "RP-1009-3860-F097-66E9",
+      "status": "ACTIVE",
+      "activationLimit": 2,
+      "activatedCount": 1,
+      "expiresAt": "2027-09-28T20:00:16.922Z",
+      "activations": [
+        {
+          "id": "act_770561114780",
+          "deviceName": "MacBook Pro M3 Max",
+          "ipAddress": "::ffff:127.0.0.1",
+          "activatedAt": "2026-09-28T20:00:33.740Z"
+        }
+      ]
+    },
+    {
+      "id": "lic_7121d8096ae2b181",
+      "orderId": "ord_102",
+      "productId": "prod_arsitektur_pack",
+      "licenseKey": "RP-E9EB-BC6E-966B-DB1A",
+      "status": "ACTIVE",
+      "activationLimit": 2,
+      "activatedCount": 0,
+      "expiresAt": "2027-09-28T20:00:46.557Z"
+    },
+    {
+      "id": "lic_d33ee14bce28ea8f",
+      "orderId": "ord_ba6c9170889f7897",
+      "productId": "prod_arsitektur_pack",
+      "licenseKey": "RP-46A9-1AA7-39F1-3D72",
+      "status": "ACTIVE",
+      "activationLimit": 2,
+      "activatedCount": 0,
+      "expiresAt": "2027-09-28T20:10:20.671Z"
+    }
+  ],
+  "settings": {
+    "general": {
+      "businessName": "Ruang Proyek",
+      "tagline": "Platform Produk Digital Arsitektur & Rekayasa Teknik Terlengkap",
+      "logoUrl": "/assets/default_store_logo.webp",
+      "currency": "IDR",
+      "timezone": "Asia/Jakarta",
+      "supportEmail": "support@ruangproyek.id",
+      "supportWhatsapp": "6281234567890"
+    },
+    "payment": {
+      "provider": "SANDBOX",
+      "isSandbox": true,
+      "serverKey": "SB-Mid-server-Rp77x9aZq110",
+      "clientKey": "SB-Mid-client-Rp22x0bYw991",
+      "webhookSecret": "whsec_ruang_proyek_production_key_2026",
+      "merchantId": "M-RUANGPROYEK-01"
+    },
+    "email": {
+      "provider": "SMTP",
+      "host": "smtp.mailtrap.io",
+      "port": 587,
+      "username": "ruang_smtp_user",
+      "password": "••••••••••••",
+      "fromName": "Ruang Proyek Official",
+      "fromEmail": "delivery@ruangproyek.id",
+      "isEnabled": true
+    },
+    "whatsapp": {
+      "provider": "FONNTE",
+      "apiKey": "fonnte_live_tok_9918237198",
+      "senderNumber": "6281234567890",
+      "isEnabled": true
+    },
+    "whatsappFollowUp": {
+      "provider": "FONNTE",
+      "apiKey": "fonnte_live_tok_9918237198",
+      "senderNumber": "6281234567890",
+      "rules": {
+        "waitingPayment": {
+          "isEnabled": true,
+          "delayMinutes": 15,
+          "template": "Halo {nama_pembeli} 👋\n\nTerima kasih telah memesan *{nama_produk}*.\n\nPesanan Anda dengan nomor *{nomor_order}* sebesar *{total_harga}* saat ini masih menunggu penyelesaian pembayaran.\n\nSegera selesaikan pembayaran melalui tautan berikut sebelum batas waktu berakhir:\n👉 {link_pembayaran}\n\nJika Anda mengalami kendala saat transfer atau butuh bantuan rekening, jangan ragu untuk membalas pesan ini ya! 🙏"
+        },
+        "paid": {
+          "isEnabled": true,
+          "delayMinutes": 0,
+          "template": "Halo {nama_pembeli} 🎉\n\nPembayaran untuk pesanan *{nomor_order}* telah kami terima dan terverifikasi LUNAS!\n\nRincian Pesanan:\n• Produk: *{nama_produk}*\n• Total: {total_harga}\n• Status: Lunas & Terkirim\n\nAkses & unduh file produk digital Anda langsung melalui tautan di bawah ini:\n🚀 {link_produk}\n\nTerima kasih atas kepercayaannya. Semoga produk ini bermanfaat maksimal untuk pekerjaan dan proyek Anda! ✨"
+        },
+        "expiredFailed": {
+          "isEnabled": false,
+          "delayMinutes": 60,
+          "template": "Halo {nama_pembeli},\n\nKami melihat bahwa pesanan *{nomor_order}* untuk *{nama_produk}* telah kedaluwarsa atau belum berhasil diselesaikan.\n\nApakah Anda masih berminat untuk mendapatkan produk ini?\nKhusus hari ini, Anda bisa memesan ulang dan mengamankan penawaran terbaik melalui tautan berikut:\n👉 {link_pembayaran}\n\nJika ada kendala metode pembayaran atau pertanyaan seputar produk, kami siap membantu!"
+        }
+      }
+    },
+    "telegram": {
+      "botToken": "719283749:AAH17823908kjsd90123hds",
+      "chatId": "-100987654321",
+      "isEnabled": true
+    },
+    "tracking": {
+      "metaPixelId": "109283746152839",
+      "metaCapiToken": "EAAB91827361928374910283",
+      "googleAnalyticsId": "G-RP20269988",
+      "googleTagManagerId": "GTM-RP001",
+      "tiktokPixelId": "C991827364501"
+    },
+    "storage": {
+      "provider": "S3",
+      "bucketName": "ruangproyek-vault-secure",
+      "region": "ap-southeast-1",
+      "accessKey": "AKIA_SECURE_STORAGE_KEY",
+      "secretKey": "••••••••••••••••••••••••••••••••"
+    }
+  },
+  "adminUser": {
+    "id": "admin_1",
+    "name": "Aan Pangestu",
+    "email": "aanpangestu09@gmail.com",
+    "role": "Super Administrator",
+    "password": "adminpassword123",
+    "passwordHash": "426848eb68bf6aa07212a4070863dbe30d92456cf011e238252ddfd86a247856"
+  }
+}
